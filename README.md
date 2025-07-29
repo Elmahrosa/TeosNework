@@ -1,15 +1,12 @@
 # TEOS Network - From Egypt to the World
 
 <div align="center">
-  <img src="media/logos/teos-logo.png" alt="TEOS Network Logo" width="220"/>
-</div>
-
+ 
 ---
 
 <div align="center">
-  <img src="media/banners/teos-banner.jpg" alt="Egyptian Theme Banner" width="100%"/>
-</div>
 
+ 
 **Powering the Digital Pharaohs**
 
 TEOS Network is a comprehensive blockchain ecosystem that bridges ancient Egyptian wisdom with modern technology, creating a sustainable, community-driven platform that empowers the Pi Network community and beyond.
