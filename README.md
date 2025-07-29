@@ -1,3 +1,61 @@
+# 🌍 Elmahrosa International & TEOS Egypt Ecosystem
+
+## Visionary Leadership
+**Founder**: Ayman Seif  
+**Mission**: Empower communities through blockchain, AI, and cultural preservation.
+
+---
+
+## 🔗 Ecosystem Projects
+
+### TEOS Egypt
+- **$TEOS Wallet**: Multi-chain contributor logic
+- **FPBE Migration**: From Pi Network → Solana
+- **TEOS Holders Portal**: Wallet auth + contribution gating
+- **Subdomain Architecture**: Modular DNS and onboarding clarity
+
+### Open-source Initiatives
+- FPBE, TeosPump, TeosNexus, Teoshold-Forge
+
+---
+
+## 🧠 Core Expertise
+
+- Smart Contracts (Solana/Anchor)
+- Full-stack architecture (Next.js, Flask)
+- DAO governance & viral memetics
+- Strategic documentation & contributor onboarding
+
+---
+
+## 🚀 Goals & Roadmap
+
+### Short-Term
+- Launch TEOS Wallet with contributor empowerment
+- Finalize FPBE → Solana migration
+- Secure funding or partnerships
+
+### Long-Term
+- Make Egypt a global Web3 hub
+- Build a sustainable, decentralized ecosystem
+- Legacy beyond any single founder or crisis
+
+---
+
+## 🧩 Challenges
+
+- Bridging visionary ambition with operational reality
+- Ensuring onboarding flows match technical excellence
+- Migrating FPBE with community alignment
+
+---
+
+## 💬 Philosophy
+
+> “It’s not charity—it’s sovereignty. Every product, portal, and partnership speaks to legacy.”
+
+---
+
 # TEOS Network - From Egypt to the World
 
 <div align="center">
