@@ -79,8 +79,8 @@ Bridging Ancient Wisdom with Modern Technology - TEOS Network combines the rich 
 
 ## 📊 Key Statistics
 
-- **Total Supply**: 10 Billion TEOS Tokens
-- **Current Holders**: 1,079+ (And Growing)
+- **Total Supply**: 9,943,895,450 Billion TEOS Tokens
+- **Current Holders**: 625 + (And Growing)
 - **Free Distribution**: 1 Billion Tokens Distributed
 - **Mining Model**: Paid Subscription Based
 - **Blockchain**: Solana (SPL Token)
@@ -131,7 +131,6 @@ TEOS Network consists of 12 interconnected components working together to create
 - Sustainable tokenomics with multiple utility streams
 
 ### 🌍 Pi Network Integration
-- $314,159 GCV program for first 100,000 Pi Pioneers
 - Enhanced mining rates for Pi Network users
 - Seamless onboarding for cryptocurrency newcomers
 - Bridge between established and emerging communities
