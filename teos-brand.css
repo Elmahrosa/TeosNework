@@ -1,0 +1,390 @@
+/* TEOS Network Brand Styles */
+/* الأنماط البصرية لشبكة تيوس */
+
+/* ================================
+   CSS CUSTOM PROPERTIES (VARIABLES)
+   ================================ */
+
+:root {
+  /* Primary Brand Colors */
+  --teos-gold: #D4AF37;
+  --teos-blue: #1E3A8A;
+  --teos-white: #FFFFFF;
+  --teos-black: #1F2937;
+  
+  /* Secondary Colors */
+  --teos-orange: #F59E0B;
+  --teos-sand: #F3F4F6;
+  --teos-nile: #3B82F6;
+  
+  /* Typography */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-secondary: 'Playfair Display', Georgia, serif;
+  --font-arabic: 'Noto Sans Arabic', Arial, sans-serif;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-full: 9999px;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-gold: 0 4px 14px 0 rgba(212, 175, 55, 0.25);
+}
+
+/* ================================
+   TYPOGRAPHY CLASSES
+   ================================ */
+
+.teos-font-primary {
+  font-family: var(--font-primary);
+}
+
+.teos-font-secondary {
+  font-family: var(--font-secondary);
+}
+
+.teos-font-arabic {
+  font-family: var(--font-arabic);
+}
+
+.teos-heading-1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.1;
+  color: var(--teos-blue);
+}
+
+.teos-heading-2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--teos-blue);
+}
+
+.teos-heading-3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--teos-blue);
+}
+
+.teos-body {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--teos-black);
+}
+
+.teos-caption {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--teos-black);
+  opacity: 0.8;
+}
+
+/* ================================
+   COLOR UTILITY CLASSES
+   ================================ */
+
+.teos-text-gold { color: var(--teos-gold); }
+.teos-text-blue { color: var(--teos-blue); }
+.teos-text-white { color: var(--teos-white); }
+.teos-text-black { color: var(--teos-black); }
+.teos-text-orange { color: var(--teos-orange); }
+
+.teos-bg-gold { background-color: var(--teos-gold); }
+.teos-bg-blue { background-color: var(--teos-blue); }
+.teos-bg-white { background-color: var(--teos-white); }
+.teos-bg-black { background-color: var(--teos-black); }
+.teos-bg-sand { background-color: var(--teos-sand); }
+
+.teos-border-gold { border-color: var(--teos-gold); }
+.teos-border-blue { border-color: var(--teos-blue); }
+
+/* ================================
+   COMPONENT STYLES
+   ================================ */
+
+/* Logo Styles */
+.teos-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.teos-logo--small {
+  width: 120px;
+}
+
+.teos-logo--medium {
+  width: 220px;
+}
+
+.teos-logo--large {
+  width: 400px;
+}
+
+/* Button Styles */
+.teos-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-family: var(--font-primary);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.teos-btn--primary {
+  background-color: var(--teos-gold);
+  color: var(--teos-white);
+  box-shadow: var(--shadow-gold);
+}
+
+.teos-btn--primary:hover {
+  background-color: #B8941F;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px 0 rgba(212, 175, 55, 0.4);
+}
+
+.teos-btn--secondary {
+  background-color: transparent;
+  color: var(--teos-blue);
+  border-color: var(--teos-blue);
+}
+
+.teos-btn--secondary:hover {
+  background-color: var(--teos-blue);
+  color: var(--teos-white);
+}
+
+.teos-btn--outline {
+  background-color: transparent;
+  color: var(--teos-gold);
+  border-color: var(--teos-gold);
+}
+
+.teos-btn--outline:hover {
+  background-color: var(--teos-gold);
+  color: var(--teos-white);
+}
+
+/* Card Styles */
+.teos-card {
+  background-color: var(--teos-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--teos-sand);
+}
+
+.teos-card--featured {
+  border: 2px solid var(--teos-gold);
+  box-shadow: var(--shadow-gold);
+}
+
+/* Egyptian Pattern Backgrounds */
+.teos-pattern-hieroglyph {
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23D4AF37' fill-opacity='0.05'%3E%3Cpath d='M20 20c0-5.5-4.5-10-10-10s-10 4.5-10 10 4.5 10 10 10 10-4.5 10-10zm10 0c0-5.5-4.5-10-10-10s-10 4.5-10 10 4.5 10 10 10 10-4.5 10-10z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.teos-pattern-geometric {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231E3A8A' fill-opacity='0.03'%3E%3Cpath d='M30 30l15-15v30l-15-15zm-15 0l-15-15v30l15-15z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* ================================
+   LAYOUT COMPONENTS
+   ================================ */
+
+/* Header Styles */
+.teos-header {
+  background: linear-gradient(135deg, var(--teos-blue) 0%, var(--teos-nile) 100%);
+  color: var(--teos-white);
+  padding: var(--spacing-lg) 0;
+}
+
+.teos-header__logo {
+  height: 60px;
+  width: auto;
+}
+
+/* Hero Section */
+.teos-hero {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 58, 138, 0.9) 0%,
+    rgba(212, 175, 55, 0.9) 100%
+  ),
+  url('../images/egyptian-background.jpg') center/cover;
+  color: var(--teos-white);
+  padding: var(--spacing-2xl) 0;
+  text-align: center;
+}
+
+.teos-hero__title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-bottom: var(--spacing-lg);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.teos-hero__subtitle {
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing-xl);
+  opacity: 0.9;
+}
+
+/* Section Styles */
+.teos-section {
+  padding: var(--spacing-2xl) 0;
+}
+
+.teos-section--dark {
+  background-color: var(--teos-blue);
+  color: var(--teos-white);
+}
+
+.teos-section--light {
+  background-color: var(--teos-sand);
+}
+
+/* ================================
+   UTILITY CLASSES
+   ================================ */
+
+.teos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.teos-text-center { text-align: center; }
+.teos-text-left { text-align: left; }
+.teos-text-right { text-align: right; }
+
+.teos-mb-sm { margin-bottom: var(--spacing-sm); }
+.teos-mb-md { margin-bottom: var(--spacing-md); }
+.teos-mb-lg { margin-bottom: var(--spacing-lg); }
+.teos-mb-xl { margin-bottom: var(--spacing-xl); }
+
+.teos-mt-sm { margin-top: var(--spacing-sm); }
+.teos-mt-md { margin-top: var(--spacing-md); }
+.teos-mt-lg { margin-top: var(--spacing-lg); }
+.teos-mt-xl { margin-top: var(--spacing-xl); }
+
+.teos-p-sm { padding: var(--spacing-sm); }
+.teos-p-md { padding: var(--spacing-md); }
+.teos-p-lg { padding: var(--spacing-lg); }
+.teos-p-xl { padding: var(--spacing-xl); }
+
+/* ================================
+   RESPONSIVE DESIGN
+   ================================ */
+
+@media (max-width: 768px) {
+  .teos-heading-1 {
+    font-size: 2.25rem;
+  }
+  
+  .teos-heading-2 {
+    font-size: 1.75rem;
+  }
+  
+  .teos-hero__title {
+    font-size: 2.5rem;
+  }
+  
+  .teos-logo--medium {
+    width: 180px;
+  }
+  
+  .teos-btn {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 0.875rem;
+  }
+}
+
+/* ================================
+   ANIMATIONS
+   ================================ */
+
+@keyframes teos-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes teos-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px var(--teos-gold);
+  }
+  50% {
+    box-shadow: 0 0 20px var(--teos-gold), 0 0 30px var(--teos-gold);
+  }
+}
+
+.teos-animate-fade-in {
+  animation: teos-fade-in 0.6s ease-out;
+}
+
+.teos-animate-glow {
+  animation: teos-glow 2s ease-in-out infinite;
+}
+
+/* ================================
+   ACCESSIBILITY
+   ================================ */
+
+.teos-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.teos-focus-visible:focus-visible {
+  outline: 2px solid var(--teos-gold);
+  outline-offset: 2px;
+}
+
+/* ================================
+   PRINT STYLES
+   ================================ */
+
+@media print {
+  .teos-hero {
+    background: none;
+    color: var(--teos-black);
+  }
+  
+  .teos-btn {
+    border: 1px solid var(--teos-black);
+    background: none;
+    color: var(--teos-black);
+  }
+}
+

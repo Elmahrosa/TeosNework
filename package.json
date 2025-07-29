@@ -1,0 +1,71 @@
+{
+  "name": "teos-network",
+  "version": "1.0.0",
+  "description": "TEOS Network - From Egypt to the World | Powering the Digital Pharaohs",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm run install:backend && npm run install:frontend && npm run install:mobile",
+    "install:backend": "cd web-platforms/teospump-backend && npm install",
+    "install:frontend": "cd web-platforms/teospump-frontend && npm install",
+    "install:mobile": "cd mobile-apps/teos-mining-app && npm install",
+    "dev:backend": "cd web-platforms/teospump-backend && npm run dev",
+    "dev:frontend": "cd web-platforms/teospump-frontend && npm run dev",
+    "dev:mobile": "cd mobile-apps/teos-mining-app && npm run start",
+    "build:all": "npm run build:contracts && npm run build:frontend && npm run build:mobile",
+    "build:contracts": "cd smart-contracts/token-contracts && anchor build",
+    "build:frontend": "cd web-platforms/teospump-frontend && npm run build",
+    "build:mobile": "cd mobile-apps/teos-mining-app && npm run build",
+    "deploy:contracts": "cd smart-contracts/token-contracts && anchor deploy",
+    "test": "npm run test:contracts && npm run test:frontend && npm run test:backend",
+    "test:contracts": "cd smart-contracts/token-contracts && anchor test",
+    "test:frontend": "cd web-platforms/teospump-frontend && npm run test",
+    "test:backend": "cd web-platforms/teospump-backend && npm run test",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write .",
+    "docs:serve": "cd docs && python -m http.server 8000",
+    "whitepaper:pdf": "manus-md-to-pdf whitepaper/TEOS_Network_Whitepaper.md whitepaper/TEOS_Network_Whitepaper.pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elmahrosa/teos-network.git"
+  },
+  "keywords": [
+    "blockchain",
+    "cryptocurrency",
+    "egypt",
+    "cultural-heritage",
+    "pi-network",
+    "solana",
+    "defi",
+    "education",
+    "mining",
+    "web3"
+  ],
+  "author": "TEOS Network Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Elmahrosa/teos-network/issues"
+  },
+  "homepage": "https://github.com/Elmahrosa/teos-network#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "workspaces": [
+    "web-platforms/*",
+    "mobile-apps/*",
+    "bots/*",
+    "ai-systems/*"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
+
